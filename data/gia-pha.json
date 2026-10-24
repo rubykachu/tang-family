@@ -31,7 +31,8 @@
     "gender": "m",
     "date": "24/10/2026"
    }
-  ]
+  ],
+  "siteUrl": "https://giaphatoctang.vercel.app/"
  },
  "people": [
   {
@@ -1132,30 +1133,54 @@
   {
    "id": "p127",
    "name": "Tăng Châu Quỳnh Như",
-   "gender": "u",
+   "gender": "f",
    "parent": "p126",
-   "order": 1
+   "order": 1,
+   "spouses": [
+    {
+     "name": "Nguyễn Quang Thắng",
+     "gender": "m"
+    }
+   ]
   },
   {
    "id": "p128",
    "name": "Tăng Châu Minh Phương",
-   "gender": "u",
+   "gender": "f",
    "parent": "p126",
-   "order": 2
+   "order": 2,
+   "spouses": [
+    {
+     "name": "Hoàng Kim Cương",
+     "gender": "m"
+    }
+   ]
   },
   {
    "id": "p129",
    "name": "Tăng Quốc Việt",
-   "gender": "u",
+   "gender": "m",
    "parent": "p126",
-   "order": 3
+   "order": 3,
+   "spouses": [
+    {
+     "name": "Nguyễn Thị Thúy Nga",
+     "gender": "f"
+    }
+   ]
   },
   {
    "id": "p130",
    "name": "Tăng Quốc Minh",
-   "gender": "u",
+   "gender": "m",
    "parent": "p126",
-   "order": 4
+   "order": 4,
+   "spouses": [
+    {
+     "name": "Trần Thị Mỹ Lê",
+     "gender": "f"
+    }
+   ]
   },
   {
    "id": "p131",

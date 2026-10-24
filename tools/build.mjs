@@ -65,7 +65,7 @@ const html = `<!DOCTYPE html>
 <meta property="og:locale" content="vi_VN">
 <meta property="og:title" content="${GP.esc(title)}">
 <meta property="og:description" content="${GP.esc(desc)}">
-<meta property="og:image" content="og-image.png">
+${data.meta.siteUrl ? `<meta property="og:url" content="${GP.esc(data.meta.siteUrl)}">\n<link rel="canonical" href="${GP.esc(data.meta.siteUrl)}">\n` : ''}<meta property="og:image" content="${GP.esc(new URL('og-image.png', data.meta.siteUrl || 'https://example.invalid/').href.replace('https://example.invalid/', ''))}">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">

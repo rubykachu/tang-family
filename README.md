@@ -99,8 +99,10 @@ npm run icons          # biểu tượng và ảnh xem trước (rồi build l�
 npm run e2e            # cần build trước
 ```
 
-Trang web được GitHub Pages đăng tự động mỗi lần đẩy (push) lên nhánh `main`
-(`.github/workflows/pages.yml`: kiểm tra dữ liệu → build → đăng thư mục `dist/`).
+Trang web: **https://giaphatoctang.vercel.app** (Vercel, cấu hình trong `vercel.json`: kiểm tra dữ liệu → build →
+đăng thư mục `dist/`). Đăng bản mới: `npx vercel deploy --prod`. Bản dự phòng trên GitHub Pages được đăng tự động
+mỗi lần đẩy (push) lên nhánh `main` (`.github/workflows/pages.yml`). Địa chỉ trang lưu ở `meta.siteUrl` trong
+`data/gia-pha.json` (dùng cho ảnh xem trước khi chia sẻ link).
 
 Khi nhận lại file đã sửa từ người trong họ, lấy dữ liệu ra bằng nút tải JSON trong thanh chỉnh sửa
 (biểu tượng mũi tên xuống) rồi chép đè `data/gia-pha.json`.

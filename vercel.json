@@ -1,0 +1,11 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": null,
+  "installCommand": "echo 'build needs no packages'",
+  "buildCommand": "node tools/check.mjs && node tools/build.mjs",
+  "outputDirectory": "dist",
+  "cleanUrls": true,
+  "headers": [
+    { "source": "/(.*)", "headers": [{ "key": "X-Robots-Tag", "value": "noindex, nofollow" }] }
+  ]
+}
