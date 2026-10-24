@@ -11,7 +11,7 @@ GP.THEME = {
 };
 
 GP.SIZE = {
-  cardW: 184, padX: 10, nameTop: 30,
+  cardW: 200, padX: 10, nameTop: 30,
   sibGap: 24, cousinGap: 44, rowGap: 72,
   marginX: 40, marginTop: 30, marginBottom: 40, labelW: 120,
 };
@@ -243,6 +243,23 @@ GP.renderTree = function (ix, L) {
   return out.join('');
 };
 
+/* Fit a card text line into `avail` px. Without a browser the width is estimated from the character
+ * count (emFactor ≈ average glyph width / font size, chosen on the generous side); when it may overflow,
+ * SVG squeezes the line to exactly `avail`. data-fit lets GP.fitTexts redo this with real measurements. */
+GP.fitAttrs = function (text, fontSize, emFactor, avail) {
+  var est = String(text).length * fontSize * emFactor;
+  return ' data-fit="' + avail + '"' + (est > avail ? ' textLength="' + avail + '" lengthAdjust="spacingAndGlyphs"' : '');
+};
+
+/* Browser pass: measure every fitted line and squeeze only the ones that really overflow. */
+GP.fitTexts = function (root) {
+  [].forEach.call(root.querySelectorAll('text[data-fit]'), function (t) {
+    t.removeAttribute('textLength'); t.removeAttribute('lengthAdjust');
+    var avail = +t.getAttribute('data-fit');
+    if (t.getComputedTextLength() > avail) { t.setAttribute('textLength', avail); t.setAttribute('lengthAdjust', 'spacingAndGlyphs'); }
+  });
+};
+
 GP.renderCard = function (ix, L, p) {
   var b = L.pos[p.id], col = GP.colorOf(ix, p.id), S = GP.SIZE, n = GP.splitName(p.name), x = S.padX + 46;
   var title = (GP.genderLabel(p.gender) ? GP.genderLabel(p.gender) + ' ' : '') + n.pre;
@@ -256,14 +273,16 @@ GP.renderCard = function (ix, L, p) {
     (b.w - cut) + ' ' + sh + 'Z" fill="' + col + '"/>');
   s.push('<rect class="card-frame" width="' + b.w + '" height="' + b.h + '" rx="12" stroke="' + col + '"/>');
   s.push('<g transform="translate(' + S.padX + ' 16)">' + GP.ICON[p.gender || 'u'] + '</g>');
-  s.push('<text class="t-pre" x="' + x + '" y="' + S.nameTop + '">' + GP.esc(title) + '</text>');
-  s.push('<text class="t-main" x="' + x + '" y="' + (S.nameTop + 22) + '" style="font-size:' + mainSize + 'px">' + GP.esc(n.main) + '</text>');
+  var avail = b.w - x - 10;
+  s.push('<text class="t-pre" x="' + x + '" y="' + S.nameTop + '"' + GP.fitAttrs(title, 13, 0.56, avail) + '>' + GP.esc(title) + '</text>');
+  s.push('<text class="t-main" x="' + x + '" y="' + (S.nameTop + 22) + '" style="font-size:' + mainSize + 'px"' +
+    GP.fitAttrs(n.main, mainSize, 0.64, avail) + '>' + GP.esc(n.main) + '</text>');
   var info = [];
   if (p.death) info.push('Giỗ ' + p.death);
   if (p.mark) info.push('(' + p.mark + ')');
   if (info.length) s.push('<text class="t-info" x="' + x + '" y="' + (S.nameTop + 41) + '">' + GP.esc(info.join('  ')) + '</text>');
   if (p.order != null) {
-    s.push('<g class="order" transform="translate(' + (b.w - 15) + ' 18)"><circle r="10.5"/><text y="4.2">' + p.order + '</text></g>');
+    s.push('<g class="order" transform="translate(' + (b.w - 18) + ' 0)"><circle r="10.5"/><text y="4.2">' + p.order + '</text></g>');
   }
   var mi = GP.motherIndex(ix, p);
   if (mi) {
@@ -275,7 +294,8 @@ GP.renderCard = function (ix, L, p) {
     var y = 100 + i * 17, rel = p.gender === 'f' ? 'Chồng' : (p.spouses.length > 1 ? 'Vợ ' + (i + 1) : 'Vợ');
     var spName = (GP.genderLabel(sp.gender) ? GP.genderLabel(sp.gender) + ' ' : '') + sp.name;
     if (i === 0) s.push('<line class="sp-sep" x1="10" x2="' + (b.w - 10) + '" y1="82" y2="82"/>');
-    s.push('<text class="t-sp" x="12" y="' + y + '"><tspan class="sp-rel">' + rel + ':</tspan> ' + GP.esc(spName) + '</text>');
+    s.push('<text class="t-sp" x="12" y="' + y + '"' + GP.fitAttrs(rel + ': ' + spName, 11.8, 0.56, b.w - 22) + '><tspan class="sp-rel">' + rel +
+      ':</tspan> ' + GP.esc(spName) + '</text>');
   });
   s.push('</g>');
   return s.join('');

@@ -26,7 +26,10 @@ for (const file of [join(ROOT, 'dist/gia-pha.svg'), join(ROOT, 'dist/index.html'
       const nData = JSON.parse(rf(join(ROOT, 'data/gia-pha.json'), 'utf8')).people.length;
   assert(n0 === nData, 'loads all ' + nData + ' people');
       assert(await page.evaluate(() => document.querySelectorAll('#gp-tree .card').length) === nData, 'renders one card per person');
-      // search without diacritics
+      const overflow = await page.evaluate(() => [...document.querySelectorAll('#gp-tree text[data-fit]')]
+    .filter((t) => t.getBBox().width > +t.dataset.fit + 1).map((t) => t.textContent));
+  assert(overflow.length === 0, 'no card text overflows its card' + (overflow.length ? ': ' + overflow.join(' | ') : ''));
+  // search without diacritics
       await page.fill('input[type=search]', 'tang tuong');
       await page.waitForTimeout(200);
       const hits = await page.$$eval('.results button', b => b.map(x => x.textContent));

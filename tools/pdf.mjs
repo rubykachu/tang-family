@@ -30,6 +30,8 @@ const browser = await chromium.launch(process.env.PW_CHANNEL ? { channel: proces
 const page = await browser.newPage();
 await page.setContent(html, { waitUntil: 'networkidle' });
 await page.evaluate(() => document.fonts.ready);
+await page.addScriptTag({ path: join(ROOT, 'src/core.js') });
+await page.evaluate(() => GP.fitTexts(document.body));
 mkdirSync(join(ROOT, 'dist'), { recursive: true });
 const out = join(ROOT, `dist/gia-pha-${size}${mode === 'td' ? '-ngang' : ''}.pdf`);
 writeFileSync(out, await page.pdf({ width: `${pw}mm`, height: `${ph}mm`, printBackground: true, pageRanges: '1' }));

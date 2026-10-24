@@ -194,6 +194,8 @@
     treeG.setAttribute('transform', 'translate(0 ' + S.headH + ')');
     while (treeG.firstChild) treeG.removeChild(treeG.firstChild);
     treeG.appendChild(svgFrag(GP.renderTree(S.ix, S.L)));
+    GP.fitTexts(treeG);
+    if (document.fonts && document.fonts.ready) document.fonts.ready.then(function () { GP.fitTexts(treeG); });
     while (labelsG.firstChild) labelsG.removeChild(labelsG.firstChild);
     labelsG.appendChild(svgFrag(GP.renderLabels(S.L)));
     if (S.sel && !S.ix.byId[S.sel]) S.sel = null;
@@ -614,6 +616,7 @@
       while (staticG.firstChild) staticG.removeChild(staticG.firstChild);
       var st = GP.renderStatic(S.data, S.mode);
       staticG.appendChild(svgFrag(st.svg));
+      GP.fitTexts(staticG);
       pageStyle.textContent = '@page { size: ' + (st.width > st.height ? 'landscape' : 'portrait') + '; margin: 8mm; }';
       root.setAttribute('viewBox', '0 0 ' + st.width + ' ' + st.height);
       staticG.removeAttribute('display'); live.setAttribute('display', 'none');
