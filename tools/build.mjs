@@ -5,6 +5,7 @@
 //   dist/logo.svg, dist/icon-512.png, dist/og-image.png — brand assets (PNGs come from `npm run icons`).
 // Usage: node tools/build.mjs [lr|td]   (orientation of the static picture, default lr = portrait poster)
 import { readFileSync, writeFileSync, mkdirSync, copyFileSync } from 'node:fs';
+import { createHash } from 'node:crypto';
 import { createRequire } from 'node:module';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -25,6 +26,8 @@ const title = data.meta.title;
 const st0 = GP.stats(GP.index(data));
 const desc = `${data.meta.subtitle}: ${st0.people} người qua ${st0.gens} đời. Tìm tên, xem dòng dõi và ngày giỗ âm lịch đổi sang dương lịch.`;
 const favicon = 'data:image/svg+xml,' + encodeURIComponent(GP.logoSvg());
+// version suffix so chat apps that cache link previews fetch the new picture after it changes
+const ogVersion = createHash('sha1').update(readFileSync(join(ROOT, 'assets/og-image.png'))).digest('hex').slice(0, 8);
 const touchIcon = 'data:image/png;base64,' + readFileSync(join(ROOT, 'assets/icon-180.png')).toString('base64');
 
 for (const [name, text] of [['code', code], ['data', json], ['css', css]]) {
@@ -65,9 +68,10 @@ const html = `<!DOCTYPE html>
 <meta property="og:locale" content="vi_VN">
 <meta property="og:title" content="${GP.esc(title)}">
 <meta property="og:description" content="${GP.esc(desc)}">
-${data.meta.siteUrl ? `<meta property="og:url" content="${GP.esc(data.meta.siteUrl)}">\n<link rel="canonical" href="${GP.esc(data.meta.siteUrl)}">\n` : ''}<meta property="og:image" content="${GP.esc(new URL('og-image.png', data.meta.siteUrl || 'https://example.invalid/').href.replace('https://example.invalid/', ''))}">
+${data.meta.siteUrl ? `<meta property="og:url" content="${GP.esc(data.meta.siteUrl)}">\n<link rel="canonical" href="${GP.esc(data.meta.siteUrl)}">\n` : ''}<meta property="og:image" content="${GP.esc(new URL('og-image.png?v=' + ogVersion, data.meta.siteUrl || 'https://example.invalid/').href.replace('https://example.invalid/', ''))}">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="${GP.esc(title)} — ${GP.esc(data.meta.subtitle)}">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="icon" type="image/svg+xml" href="${favicon}">
 <link rel="apple-touch-icon" href="${touchIcon}">
