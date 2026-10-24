@@ -963,7 +963,7 @@
   {
    "id": "p108",
    "name": "Tăng Thị Thủy Trang",
-   "gender": "u",
+   "gender": "f",
    "parent": "p106",
    "order": 2
   },
@@ -1046,7 +1046,9 @@
      "name": "Phan Thị Phương Dung",
      "gender": "f"
     }
-   ]
+   ],
+   "death": "9/7",
+   "note": "Mất ngày 9/7 âm lịch năm Giáp Thìn (2024)"
   },
   {
    "id": "p117",
@@ -1070,7 +1072,7 @@
   {
    "id": "p119",
    "name": "Tăng Quốc Nam",
-   "gender": "u",
+   "gender": "m",
    "parent": "p116",
    "order": 2
   },
@@ -1083,14 +1085,14 @@
   {
    "id": "p121",
    "name": "Tăng Quốc Đính",
-   "gender": "u",
+   "gender": "m",
    "parent": "p116",
    "order": 3
   },
   {
    "id": "p122",
    "name": "Tăng Bảo Trâm",
-   "gender": "u",
+   "gender": "f",
    "note": "Bản gốc ghi \"Cô\"",
    "parent": "p116",
    "order": 4
@@ -1105,7 +1107,7 @@
   {
    "id": "p124",
    "name": "Tăng Thị Vô Danh",
-   "gender": "u",
+   "gender": "f",
    "parent": "p116",
    "order": 6
   },
@@ -1266,14 +1268,14 @@
   {
    "id": "p139",
    "name": "Tăng Thị Thu Thủy",
-   "gender": "u",
+   "gender": "f",
    "parent": "p134",
    "order": 2
   },
   {
    "id": "p140",
    "name": "Tăng Thị Thu Trâm",
-   "gender": "u",
+   "gender": "f",
    "parent": "p134",
    "order": 3
   },
@@ -1287,7 +1289,7 @@
   {
    "id": "p142",
    "name": "Tăng Thị Hiền",
-   "gender": "u",
+   "gender": "f",
    "mark": "c",
    "parent": "p134",
    "order": 5
@@ -1295,7 +1297,7 @@
   {
    "id": "p143",
    "name": "Tăng Thị Cẩm Phú",
-   "gender": "u",
+   "gender": "f",
    "parent": "p134",
    "order": 6
   },
@@ -1400,7 +1402,7 @@
   {
    "id": "p157",
    "name": "Tăng Thị Bảo Linh",
-   "gender": "u",
+   "gender": "f",
    "parent": "p156"
   },
   {
@@ -1515,7 +1517,7 @@
   {
    "id": "p170",
    "name": "Tăng Thị Long Hiệp",
-   "gender": "u",
+   "gender": "f",
    "parent": "p168",
    "order": 2
   },
