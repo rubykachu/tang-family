@@ -100,7 +100,7 @@ npm run e2e            # cần build trước
 ```
 
 Trang web: **https://giaphatoctang.vercel.app** (Vercel, cấu hình trong `vercel.json`: kiểm tra dữ liệu → build →
-đăng thư mục `dist/`). Đăng bản mới: `npx vercel deploy --prod`. Địa chỉ trang lưu ở `meta.siteUrl` trong
+đăng thư mục `dist/`). Mỗi lần đẩy (push) lên nhánh `main` của GitHub, Vercel tự build và đăng bản mới (khoảng 1 phút); không cần chạy lệnh deploy. Địa chỉ trang lưu ở `meta.siteUrl` trong
 `data/gia-pha.json` (dùng cho ảnh xem trước khi chia sẻ link).
 
 Khi nhận lại file đã sửa từ người trong họ, lấy dữ liệu ra bằng nút tải JSON trong thanh chỉnh sửa
