@@ -796,11 +796,11 @@
     if (!isSvgDoc) { var b = copy.querySelector('body'); if (b) b.removeAttribute('style'); }
     var text = isSvgDoc ? '<?xml version="1.0" encoding="UTF-8"?>\n' + new XMLSerializer().serializeToString(copy)
       : '<!DOCTYPE html>\n' + copy.outerHTML;
-    download('gia-pha-ho-tang-' + stamp() + (isSvgDoc ? '.svg' : '.html'), text, isSvgDoc ? 'image/svg+xml' : 'text/html');
+    download('gia-pha-toc-tang-' + stamp() + (isSvgDoc ? '.svg' : '.html'), text, isSvgDoc ? 'image/svg+xml' : 'text/html');
     S.dirty = false; store(docKey, null); setEdit(S.edit);
     toast('Đã tải file mới. Hãy dùng file này thay cho file cũ và gửi cho cả họ.', null, 6000);
   }
-  function exportJson() { download('gia-pha-ho-tang-' + stamp() + '.json', JSON.stringify(S.data, null, 1), 'application/json'); }
+  function exportJson() { download('gia-pha-toc-tang-' + stamp() + '.json', JSON.stringify(S.data, null, 1), 'application/json'); }
 
   function setMode(m) { S.mode = m; store('gp:mode', m); rebuild(); if (S.sel) centerOn(S.sel); else fit(true); }
 

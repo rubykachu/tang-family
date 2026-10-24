@@ -1,4 +1,4 @@
-# Gia phả họ Tăng — Đệ Tam Phái, Đệ Nhị Chi
+# Gia phả tộc Tăng — Đệ Tam Phái, Đệ Nhị Chi
 
 Bản số hóa của gia phả do Ông Tăng Quảng sưu tầm và thiết kế (09/6/2007), gồm 202 người qua 12 đời.
 Bản gốc là ảnh scan khổ A0 (`gia-pha.pdf`). Mọi tên, ngày giỗ, nơi an táng và đường nối cha–con đã được
@@ -36,7 +36,7 @@ của người con khi cha có nhiều vợ (cùng màu xanh lá / cam / vàng n
 2. Bấm **Chỉnh sửa** (biểu tượng bút chì).
 3. Chạm vào một người → **Sửa thông tin**, **Thêm con** hoặc **Xóa người này**. Trong ô sửa có thể thêm vợ/chồng.
    Bấm nhầm thì bấm **Hoàn tác**.
-4. Bấm **Lưu file** → trình duyệt tải về một file mới, ví dụ `gia-pha-ho-tang-2026-10-24.html`.
+4. Bấm **Lưu file** → trình duyệt tải về một file mới, ví dụ `gia-pha-toc-tang-2026-10-24.html`.
    **File này thay cho file cũ** — gửi file mới cho cả họ.
 
 Những điều nên biết:

@@ -1,7 +1,7 @@
 {
-  "name": "gia-pha-ho-tang",
+  "name": "gia-pha-toc-tang",
   "private": true,
-  "description": "Gia phả họ Tăng — dữ liệu, ứng dụng xem/sửa (SVG + HTML) và bản in PDF",
+  "description": "Gia phả tộc Tăng — dữ liệu, ứng dụng xem/sửa (SVG + HTML) và bản in PDF",
   "scripts": {
     "build": "node tools/build.mjs",
     "check": "node tools/check.mjs",
