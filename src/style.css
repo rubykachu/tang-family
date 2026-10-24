@@ -205,29 +205,35 @@ svg#gp-root { font-family: var(--sans); background: var(--paper); }
 .lg-ord { display: inline-flex; align-items: center; justify-content: center; width: 22px; height: 22px; border-radius: 50%; border: 1.5px solid var(--gold); background: #fff8e6; color: #7a5a12; font-weight: 700; font-size: 12px; }
 .ui.sheet-open.sm .legend-card { display: none; }
 
-/* "Lời dặn của tộc" */
+/* "Lời dặn của tộc": sized from the viewport height so the whole page fits one screen on desktop */
 .testament-scrim { background: rgba(40, 18, 10, .55); }
-.testament { position: relative; width: min(760px, 100%); max-height: calc(100% - 24px); overflow: auto; -webkit-overflow-scrolling: touch;
-  background: radial-gradient(ellipse at top, #fffaf0 0%, #f7ecd6 70%, #efdfbf 100%); border-radius: 6px; padding: 18px;
+.testament { position: relative; width: min(820px, 100%); max-height: calc(100% - 24px); overflow: auto; -webkit-overflow-scrolling: touch;
+  background: radial-gradient(ellipse at top, #fffaf0 0%, #f7ecd6 70%, #efdfbf 100%); border-radius: 6px; padding: clamp(10px, 1.6vh, 16px);
   box-shadow: 0 24px 60px rgba(30, 10, 0, .45); }
-.tm-frame { border: 2px solid var(--red); outline: 1px solid var(--gold); outline-offset: -8px; padding: 34px 44px 30px; border-radius: 2px; }
-.tm-close { position: absolute; right: 26px; top: 26px; }
+.tm-frame { position: relative; border: 2px solid var(--red); outline: 1px solid var(--gold); outline-offset: -8px; padding: clamp(16px, 2.6vh, 32px) clamp(24px, 4.5vh, 48px) clamp(16px, 2.4vh, 26px); border-radius: 2px; }
+.tm-close { position: absolute; right: 18px; top: 18px; }
+.tm-close .ibtn { width: 38px; height: 38px; min-width: 38px; padding: 0; border-radius: 50%; background: transparent; border: 1px solid var(--gold); color: var(--red); }
+.tm-close .ibtn:hover { background: rgba(168, 35, 31, .08); border-color: var(--red); }
+.tm-close .ibtn svg { width: 18px; height: 18px; }
 .tm-head { text-align: center; }
-.tm-head svg { display: inline-block; }
-.tm-kicker { margin-top: 12px; font-family: var(--serif); font-weight: 700; color: #6b4e1d; letter-spacing: 2px; font-size: 14px; text-transform: uppercase; }
-.tm-head h2 { font-family: var(--serif); font-weight: 800; color: var(--red); font-size: 40px; letter-spacing: 3px; text-transform: uppercase; margin: 8px 0 4px; line-height: 1.15; }
-.tm-orn { display: flex; align-items: center; justify-content: center; gap: 10px; margin-bottom: 18px; }
+.tm-head svg:first-child { display: inline-block; width: clamp(40px, 6vh, 60px); height: auto; }
+.tm-kicker { margin-top: clamp(4px, 1vh, 10px); font-family: var(--serif); font-weight: 700; color: #6b4e1d; letter-spacing: 2px; font-size: clamp(11px, 1.5vh, 14px); text-transform: uppercase; }
+.tm-head h2 { font-family: var(--serif); font-weight: 800; color: var(--red); font-size: clamp(24px, 4.2vh, 40px); letter-spacing: 3px; text-transform: uppercase; margin: 4px 0 2px; line-height: 1.15; }
+.tm-orn { display: flex; align-items: center; justify-content: center; gap: 10px; margin-bottom: clamp(8px, 1.6vh, 16px); }
+.tm-orn svg { height: clamp(18px, 2.6vh, 28px); width: auto; }
 .tm-orn .cloud { stroke-width: 2.2; }
 .tm-dot { width: 8px; height: 8px; background: var(--red); transform: rotate(45deg); }
-.tm-body p { font-family: var(--serif); font-size: 18px; line-height: 1.9; color: #3a2a1c; text-align: justify; margin: 0 0 16px; text-indent: 2em; }
+.tm-body p { font-family: var(--serif); font-size: clamp(14px, 1.82vh, 18px); line-height: 1.64; color: #3a2a1c; text-align: justify; margin: 0 0 clamp(6px, 1.2vh, 12px); text-indent: 2em; }
 .tm-body p:first-child { text-indent: 0; }
-.tm-body p:first-child::first-letter { float: left; font-size: 64px; line-height: .9; padding: 6px 10px 0 0; color: var(--red); font-weight: 800; }
-.tm-note { margin: 22px 0 6px; padding: 14px 18px; border-left: 4px solid var(--red); background: rgba(168, 35, 31, .06); font-family: var(--serif); font-size: 17px; color: #3a2a1c; }
-.tm-note-k { font-family: var(--sans); font-size: 12.5px; letter-spacing: 1.5px; text-transform: uppercase; color: var(--red); font-weight: 700; margin-bottom: 4px; }
-.tm-sign { margin-top: 28px; margin-left: auto; width: max-content; max-width: 100%; text-align: center; }
+.tm-body p:first-child::first-letter { float: left; font-size: 3.4em; line-height: .9; padding: 4px 10px 0 0; color: var(--red); font-weight: 800; }
+.tm-note { margin: clamp(10px, 1.8vh, 18px) 0 4px; padding: clamp(8px, 1.3vh, 12px) 16px; border-left: 4px solid var(--red); background: rgba(168, 35, 31, .06); font-family: var(--serif); font-size: clamp(14px, 1.85vh, 17px); color: #3a2a1c; }
+.tm-note-k { font-family: var(--sans); font-size: 12px; letter-spacing: 1.5px; text-transform: uppercase; color: var(--red); font-weight: 700; margin-bottom: 2px; }
+.tm-signs { display: flex; justify-content: space-between; gap: 24px; margin-top: clamp(12px, 2.2vh, 24px); }
+.tm-signs .tm-sign:only-child { margin-left: auto; }
+.tm-sign { text-align: center; }
 .tm-sign-k { font-size: 13px; color: var(--muted); font-style: italic; }
-.tm-sign-n { font-family: var(--serif); font-size: 24px; font-weight: 800; color: var(--red); margin-top: 6px; }
-.tm-sign-d { font-size: 13.5px; color: var(--muted); margin-top: 2px; }
+.tm-sign-n { font-family: var(--serif); font-size: clamp(18px, 2.6vh, 24px); font-weight: 800; color: var(--red); margin-top: 4px; }
+.tm-sign-d { font-size: 13px; color: var(--muted); margin-top: 2px; }
 
 /* phone layout: app.js adds .sm (≤760px) and .xs (≤520px) from the effective screen width */
 .ui.sm .topbar { gap: 6px; padding: 6px 8px; padding-top: max(6px, env(safe-area-inset-top)); }
@@ -257,7 +263,8 @@ svg#gp-root { font-family: var(--sans); background: var(--paper); }
 .ui.sm .testament-scrim { align-items: center; }
 .ui.sm .testament { padding: 10px; }
 .ui.sm .tm-frame { padding: 26px 18px 22px; }
-.ui.sm .tm-close { right: 16px; top: 16px; }
+.ui.sm .tm-close { right: 12px; top: 12px; }
+.ui.sm .tm-signs { flex-direction: column; align-items: center; gap: 14px; }
 .ui.sm .tm-head h2 { font-size: 28px; letter-spacing: 2px; }
 .ui.sm .tm-body p { font-size: 16.5px; line-height: 1.8; text-align: left; }
 .ui.sm .legend-card { left: 10px; bottom: 14px; max-width: calc(100% - 90px); }

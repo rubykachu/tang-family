@@ -571,6 +571,10 @@
   /* ---------- "Lời dặn của tộc": formal page of its own ---------- */
   function openTestament() {
     closeModal();
+    function sign(role, name, date) {
+      return h('div', { 'class': 'tm-sign' }, [h('div', { 'class': 'tm-sign-k' }, role), h('div', { 'class': 'tm-sign-n' }, name || ''),
+        date ? h('div', { 'class': 'tm-sign-d' }, 'Ngày ' + date) : null]);
+    }
     var meta = S.data.meta, seal = document.createElementNS(SV, 'svg');
     seal.setAttribute('viewBox', '0 0 92 92'); seal.setAttribute('width', 64); seal.setAttribute('height', 64);
     seal.appendChild(svgFrag(GP.seal(92)));
@@ -590,10 +594,11 @@
             h('div', { 'class': 'tm-orn' }, [cloud(false), h('span', { 'class': 'tm-dot' }), cloud(true)])]),
           h('div', { 'class': 'tm-body' }, (meta.history || []).map(function (x) { return h('p', {}, x); })),
           meta.anniversary ? h('div', { 'class': 'tm-note' }, [h('div', { 'class': 'tm-note-k' }, 'Ngày chạp mả'), meta.anniversary]) : null,
-          h('div', { 'class': 'tm-sign' }, [
-            h('div', { 'class': 'tm-sign-k' }, 'Người sưu tầm và thiết kế bản gốc'),
-            h('div', { 'class': 'tm-sign-n' }, meta.compiler || ''),
-            meta.compiledOn ? h('div', { 'class': 'tm-sign-d' }, 'Ngày ' + meta.compiledOn) : null])])])]);
+          h('div', { 'class': 'tm-signs' }, [sign('Người sưu tầm và thiết kế bản gốc', meta.compiler, meta.compiledOn)]
+            .concat((meta.maintainers || []).map(function (m) {
+              var role = m.role ? 'Người ' + m.role.charAt(0).toLowerCase() + m.role.slice(1) : 'Người cập nhật';
+              return sign(role, (GP.genderLabel(m.gender) ? GP.genderLabel(m.gender) + ' ' : '') + m.name, m.date);
+            })))])])]);
     ui.appendChild(scrim);
   }
   function copyLink() {

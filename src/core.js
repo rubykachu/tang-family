@@ -78,7 +78,9 @@ GP.revealPhone = function (s) {
 /* "Bản gốc …" plus one line per later maintainer; phones are never included here. */
 GP.creditLines = function (meta) {
   var out = ['Bản gốc: ' + (meta.compiler || '') + ' sưu tầm và thiết kế' + (meta.compiledOn ? ' (' + meta.compiledOn + ')' : '')];
-  (meta.maintainers || []).forEach(function (m) { out.push((m.role || 'Cập nhật') + ': ' + m.name + (m.year ? ' (' + m.year + ')' : '')); });
+  (meta.maintainers || []).forEach(function (m) {
+    out.push((m.role || 'Cập nhật') + ': ' + (GP.genderLabel(m.gender) ? GP.genderLabel(m.gender) + ' ' : '') + m.name + (m.date ? ' (' + m.date + ')' : ''));
+  });
   if (meta.updated) out.push('Cập nhật lần cuối: ' + meta.updated);
   return out;
 };
