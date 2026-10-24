@@ -39,7 +39,11 @@ for (const file of [join(ROOT, 'dist/gia-pha.svg'), join(ROOT, 'dist/index.html'
       const panelName = await page.textContent('.panel .pn-main');
       assert(panelName === 'Tường', 'panel shows the picked person');
       assert(await page.evaluate(() => document.querySelectorAll('.edge.lit').length) > 10, 'lineage edges highlighted');
-      // anniversaries
+      // testament page opens and its close button really receives the click
+  await page.click('button[title="Lời dặn của tộc"]');
+  await page.click('.tm-close button', { timeout: 3000 });
+  assert(!(await page.$('.testament')), 'testament page closes with its × button');
+  // anniversaries
       await page.click('button[title="Ngày giỗ sắp tới"]');
       await page.waitForTimeout(300);
       const ann = await page.$$eval('.list-item', l => l.length);

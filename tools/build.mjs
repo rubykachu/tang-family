@@ -34,7 +34,7 @@ for (const [name, text] of [['code', code], ['data', json], ['css', css]]) {
 const svgOpen = `<svg xmlns="http://www.w3.org/2000/svg" id="gp-root" lang="vi" viewBox="0 0 ${st.width} ${st.height}" width="${st.width}" height="${st.height}">`;
 const svg = `<?xml version="1.0" encoding="UTF-8"?>
 ${svgOpen}
-<title>${GP.esc(title)}</title>
+<title>${GP.esc(title.toLocaleUpperCase("vi"))}</title>
 <desc>${GP.esc(desc)}</desc>
 <style><![CDATA[
 ${css}
@@ -71,7 +71,7 @@ ${data.meta.siteUrl ? `<meta property="og:url" content="${GP.esc(data.meta.siteU
 <meta name="twitter:card" content="summary_large_image">
 <link rel="icon" type="image/svg+xml" href="${favicon}">
 <link rel="apple-touch-icon" href="${touchIcon}">
-<title>${GP.esc(title)}</title>
+<title>${GP.esc(title.toLocaleUpperCase("vi"))}</title>
 <style>
 ${css}
 </style>

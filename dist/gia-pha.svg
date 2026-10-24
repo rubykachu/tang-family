@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" id="gp-root" lang="vi" viewBox="0 0 3480 10774" width="3480" height="10774">
-<title>Gia phả tộc Tăng</title>
+<title>GIA PHẢ TỘC TĂNG</title>
 <desc>Tộc Tăng — Đệ Tam Phái, Đệ Nhị Chi: 206 người qua 12 đời. Tìm tên, xem dòng dõi và ngày giỗ âm lịch đổi sang dương lịch.</desc>
 <style><![CDATA[
 @import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&family=Noto+Serif:wght@600;700;800&display=swap');
@@ -216,7 +216,7 @@ svg#gp-root { font-family: var(--sans); background: var(--paper); }
   background: radial-gradient(ellipse at top, #fffaf0 0%, #f7ecd6 70%, #efdfbf 100%); border-radius: 6px; padding: clamp(10px, 1.6vh, 16px);
   box-shadow: 0 24px 60px rgba(30, 10, 0, .45); }
 .tm-frame { position: relative; border: 2px solid var(--red); outline: 1px solid var(--gold); outline-offset: -8px; padding: clamp(16px, 2.6vh, 32px) clamp(24px, 4.5vh, 48px) clamp(16px, 2.4vh, 26px); border-radius: 2px; }
-.tm-close { position: absolute; right: 18px; top: 18px; }
+.tm-close { position: absolute; right: 18px; top: 18px; z-index: 2; }
 .tm-close .ibtn { width: 38px; height: 38px; min-width: 38px; padding: 0; border-radius: 50%; background: transparent; border: 1px solid var(--gold); color: var(--red); }
 .tm-close .ibtn:hover { background: rgba(168, 35, 31, .08); border-color: var(--red); }
 .tm-close .ibtn svg { width: 18px; height: 18px; }
