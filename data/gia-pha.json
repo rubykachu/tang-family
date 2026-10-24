@@ -1,0 +1,1803 @@
+{
+ "meta": {
+  "title": "Gia phả họ Tăng",
+  "subtitle": "Tộc Tăng — Đệ Tam Phái, Đệ Nhị Chi",
+  "compiler": "Ông Tăng Quảng",
+  "compiledOn": "09/6/2007",
+  "anniversary": "Ngày chạp mả Phái III, Chi II là ngày 16/3 âm lịch hằng năm.",
+  "phai": {
+   "I": "Phái I",
+   "II": "Phái II",
+   "III": "Phái III",
+   "IV": "Phái IV"
+  },
+  "marks": {
+   "c": "Ký hiệu \"(c)\" chép đúng theo bản gốc"
+  },
+  "history": [
+   "Nguồn gốc họ Tăng có từ bên Trung Hoa, vì cuộc sống mưu sinh Ông bà ta đi về Phương Nam, đến Việt Nam ở tại nhiều nơi. Tại miền Trung tộc Tăng hiện có ở Hội An, Thăng Bình, Đại Lộc, Câu Nhí (Quảng Nam) và Trung Nghĩa (Đà Nẵng). Hiện nay chưa có điều kiện và cũng chưa có ai đầu tư thời gian, kinh phí để đi truy tìm và kết nối tộc Tăng ở các nơi lại với nhau.",
+   "Do không phải là người Việt Nam, nên từ thế hệ I đến thế hệ VI không có đất thổ cư, hầu hết công dân họ Tăng sống bằng nghề sông nước, nên rủi ro chết sông nhiều. Đến thời Phong kiến cụ Tăng Trinh thế hệ VII làm Quan lớn tại Quảng Nam đã cho phép đa số ngư dân, tộc Tăng lên đất liền làm ăn sinh sống đến ngày nay.",
+   "Con cháu sau này có trách nhiệm bảo quản nguyên vẹn, sạch, đẹp gia phả này và để nơi tôn nghiêm (có thể dưới hoặc sau ảnh bàn thờ Ông bà). Khi cúng đại lễ mở ra cúng Ông bà và những người đã khuất. Đồng thời kê khai tiếp để gia phả ngày càng đầy đủ, rõ ràng, chính xác và lưu truyền mãi về sau. Các thế hệ tiếp theo không được đặt tên con cháu trùng với Quí danh trong gia phả này."
+  ],
+  "conventions": [
+   "Số trong vòng tròn là ngôi thứ từ lớn đến nhỏ (số nhỏ là anh hay chị, số lớn kế tiếp là em).",
+   "Ngày ghi trong ngoặc là ngày giỗ (âm lịch)."
+  ],
+  "maintainers": [
+   {
+    "name": "Tăng Minh Nhựt",
+    "role": "Số hóa và thiết kế lại",
+    "year": "2026",
+    "phone": "NTE4IDIwMCA1ODkw"
+   }
+  ]
+ },
+ "people": [
+  {
+   "id": "p001",
+   "name": "Tăng Dậu Dừa",
+   "gender": "m",
+   "death": "13/3",
+   "note": "Thiên Thủy Quận"
+  },
+  {
+   "id": "p002",
+   "name": "Tăng Văn Hay",
+   "gender": "m",
+   "death": "8/12",
+   "grave": "Bàu Dụng, Đại Hòa, Đại Lộc",
+   "parent": "p001"
+  },
+  {
+   "id": "p003",
+   "name": "Tăng Thị Dụng",
+   "gender": "f",
+   "grave": "Khe Đá Mài, Quảng Nam",
+   "uncertain": [
+    "grave"
+   ],
+   "parent": "p002",
+   "order": 1
+  },
+  {
+   "id": "p004",
+   "name": "Tăng Thị Vô Danh",
+   "gender": "f",
+   "grave": "Mậu Hòa, Duy Xuyên",
+   "parent": "p002",
+   "order": 2
+  },
+  {
+   "id": "p005",
+   "name": "Tăng Văn Đao",
+   "gender": "m",
+   "grave": "Phú Thuận, Giồng",
+   "uncertain": [
+    "grave"
+   ],
+   "parent": "p002",
+   "order": 3
+  },
+  {
+   "id": "p006",
+   "name": "Tăng Văn Quý",
+   "gender": "m",
+   "death": "12/8",
+   "grave": "Câu Nhí, thôn Hạnh Ba",
+   "uncertain": [
+    "grave"
+   ],
+   "parent": "p005",
+   "order": 1,
+   "spouses": [
+    {
+     "name": "Nguyễn Thị Phan",
+     "gender": "f",
+     "death": "18/9",
+     "grave": "Câu Nhí, thôn Hạnh Ba",
+     "uncertain": [
+      "grave"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "p007",
+   "name": "Tăng Văn Tuần",
+   "gender": "m",
+   "death": "5/1",
+   "grave": "Trà Kiệu",
+   "parent": "p006",
+   "order": 1,
+   "spouses": [
+    {
+     "name": "Nguyễn Thị Chít",
+     "gender": "f",
+     "death": "28/9",
+     "grave": "Mậu Hòa",
+     "note": "Con gái bà Ngô Thị Xỉ (giỗ 3/3)"
+    }
+   ]
+  },
+  {
+   "id": "p008",
+   "name": "Tăng Văn Vai",
+   "gender": "m",
+   "death": "7/8",
+   "grave": "An Trường, Bàu Ca",
+   "parent": "p007",
+   "order": 1,
+   "phai": "I",
+   "spouses": [
+    {
+     "name": "Phạm Thị Đí",
+     "gender": "f",
+     "death": "18/6"
+    }
+   ]
+  },
+  {
+   "id": "p009",
+   "name": "Tăng Văn Dụng",
+   "gender": "m",
+   "death": "20/10",
+   "uncertain": [
+    "death"
+   ],
+   "parent": "p008",
+   "spouses": [
+    {
+     "name": "Trịnh Thị Hòa",
+     "gender": "f",
+     "death": "6/8"
+    }
+   ]
+  },
+  {
+   "id": "p010",
+   "name": "Tăng Văn Cụng",
+   "gender": "m",
+   "parent": "p009",
+   "order": 1
+  },
+  {
+   "id": "p011",
+   "name": "Tăng Văn Bếp",
+   "gender": "m",
+   "parent": "p010",
+   "order": 1
+  },
+  {
+   "id": "p012",
+   "name": "Tăng Văn Chít",
+   "gender": "m",
+   "parent": "p010",
+   "order": 2
+  },
+  {
+   "id": "p013",
+   "name": "Tăng Văn Yến",
+   "gender": "m",
+   "parent": "p010",
+   "order": 3
+  },
+  {
+   "id": "p014",
+   "name": "Tăng Văn Lực",
+   "gender": "m",
+   "parent": "p009",
+   "order": 2
+  },
+  {
+   "id": "p015",
+   "name": "Tăng Văn Hân",
+   "gender": "m",
+   "parent": "p014",
+   "order": 1
+  },
+  {
+   "id": "p016",
+   "name": "Tăng Văn Dân",
+   "gender": "m",
+   "parent": "p015",
+   "order": 1
+  },
+  {
+   "id": "p017",
+   "name": "Tăng Văn Nhứt",
+   "gender": "m",
+   "parent": "p016"
+  },
+  {
+   "id": "p018",
+   "name": "Tăng Văn Lượng",
+   "gender": "m",
+   "parent": "p015",
+   "order": 2
+  },
+  {
+   "id": "p019",
+   "name": "Tăng Văn Tâm",
+   "gender": "m",
+   "parent": "p018"
+  },
+  {
+   "id": "p020",
+   "name": "Tăng Văn Nghĩa",
+   "gender": "m",
+   "parent": "p015",
+   "order": 3
+  },
+  {
+   "id": "p021",
+   "name": "Tăng Văn Mai",
+   "gender": "m",
+   "parent": "p014",
+   "order": 2
+  },
+  {
+   "id": "p022",
+   "name": "Tăng Văn Thân",
+   "gender": "m",
+   "parent": "p021",
+   "order": 1
+  },
+  {
+   "id": "p023",
+   "name": "Tăng Văn Thích",
+   "gender": "m",
+   "parent": "p021",
+   "order": 2
+  },
+  {
+   "id": "p024",
+   "name": "Tăng Văn Đàm",
+   "gender": "m",
+   "parent": "p009",
+   "order": 3
+  },
+  {
+   "id": "p025",
+   "name": "Tăng Văn Gọn",
+   "gender": "m",
+   "parent": "p024"
+  },
+  {
+   "id": "p026",
+   "name": "Tăng Văn Sô",
+   "gender": "m",
+   "parent": "p025",
+   "order": 1
+  },
+  {
+   "id": "p027",
+   "name": "Tăng Văn Phận",
+   "gender": "m",
+   "parent": "p026"
+  },
+  {
+   "id": "p028",
+   "name": "Tăng Văn Đay",
+   "gender": "m",
+   "parent": "p025",
+   "order": 2
+  },
+  {
+   "id": "p029",
+   "name": "Tăng Văn Thẩm",
+   "gender": "m",
+   "parent": "p009",
+   "order": 4
+  },
+  {
+   "id": "p030",
+   "name": "Tăng Văn Mỹ",
+   "gender": "m",
+   "parent": "p029"
+  },
+  {
+   "id": "p031",
+   "name": "Tăng Văn Thế",
+   "gender": "m",
+   "parent": "p030",
+   "uncertain": [
+    "name"
+   ],
+   "note": "Dấu trên chữ \"Thế\" trong bản gốc bị mờ (có thể là Thể/Thê)"
+  },
+  {
+   "id": "p032",
+   "name": "Tăng Văn Sề",
+   "gender": "m",
+   "parent": "p031"
+  },
+  {
+   "id": "p033",
+   "name": "Tăng Văn Phương",
+   "gender": "m",
+   "parent": "p032"
+  },
+  {
+   "id": "p034",
+   "name": "Tăng Văn Nam",
+   "gender": "m",
+   "parent": "p009",
+   "order": 5
+  },
+  {
+   "id": "p035",
+   "name": "Tăng Văn Nhiên",
+   "gender": "m",
+   "parent": "p034",
+   "order": 1
+  },
+  {
+   "id": "p036",
+   "name": "Tăng Văn Đắc",
+   "gender": "m",
+   "parent": "p035",
+   "order": 1
+  },
+  {
+   "id": "p037",
+   "name": "Tăng Văn Dữ",
+   "gender": "m",
+   "parent": "p035",
+   "order": 2
+  },
+  {
+   "id": "p038",
+   "name": "Tăng Văn Như",
+   "gender": "m",
+   "parent": "p034",
+   "order": 2
+  },
+  {
+   "id": "p039",
+   "name": "Tăng Văn Tre",
+   "gender": "m",
+   "parent": "p038"
+  },
+  {
+   "id": "p040",
+   "name": "Tăng Văn Biệt",
+   "gender": "m",
+   "parent": "p009",
+   "order": 6
+  },
+  {
+   "id": "p041",
+   "name": "Tăng Văn Thảo",
+   "gender": "m",
+   "parent": "p040"
+  },
+  {
+   "id": "p042",
+   "name": "Tăng Văn Phung",
+   "gender": "m",
+   "parent": "p041",
+   "order": 1
+  },
+  {
+   "id": "p043",
+   "name": "Tăng Văn Toan",
+   "gender": "m",
+   "parent": "p041",
+   "order": 2
+  },
+  {
+   "id": "p044",
+   "name": "Tăng Văn Vát",
+   "gender": "m",
+   "death": "8/8",
+   "grave": "Thi Lai",
+   "parent": "p007",
+   "order": 2,
+   "phai": "II"
+  },
+  {
+   "id": "p045",
+   "name": "Tăng Văn Cúc",
+   "gender": "m",
+   "parent": "p044"
+  },
+  {
+   "id": "p046",
+   "name": "Tăng Văn Xấu",
+   "gender": "m",
+   "parent": "p045",
+   "order": 1
+  },
+  {
+   "id": "p047",
+   "name": "Tăng Văn Thường",
+   "gender": "m",
+   "parent": "p046"
+  },
+  {
+   "id": "p048",
+   "name": "Tăng Văn Bạn",
+   "gender": "m",
+   "parent": "p047",
+   "order": 1
+  },
+  {
+   "id": "p049",
+   "name": "Tăng Văn Hiền",
+   "gender": "m",
+   "parent": "p048"
+  },
+  {
+   "id": "p050",
+   "name": "Tăng Văn Mẹo",
+   "gender": "m",
+   "parent": "p047",
+   "order": 2
+  },
+  {
+   "id": "p051",
+   "name": "Tăng Văn Sắt",
+   "gender": "m",
+   "parent": "p045",
+   "order": 2
+  },
+  {
+   "id": "p052",
+   "name": "Tăng Văn Hè",
+   "gender": "m",
+   "parent": "p051"
+  },
+  {
+   "id": "p053",
+   "name": "Tăng Văn Đường",
+   "gender": "m",
+   "parent": "p052",
+   "order": 1
+  },
+  {
+   "id": "p054",
+   "name": "Tăng Văn Phán",
+   "gender": "m",
+   "parent": "p052",
+   "order": 2
+  },
+  {
+   "id": "p055",
+   "name": "Tăng Văn Nhạt",
+   "gender": "m",
+   "parent": "p052",
+   "order": 3
+  },
+  {
+   "id": "p056",
+   "name": "Tăng Văn Tuệ",
+   "gender": "m",
+   "parent": "p052",
+   "order": 4
+  },
+  {
+   "id": "p057",
+   "name": "Tăng Văn Nhuệ",
+   "gender": "m",
+   "parent": "p052",
+   "order": 5
+  },
+  {
+   "id": "p058",
+   "name": "Tăng Văn Khuy",
+   "gender": "m",
+   "death": "7/4",
+   "grave": "Thi Lai",
+   "parent": "p007",
+   "order": 3,
+   "phai": "III",
+   "spouses": [
+    {
+     "name": "Lê Thị Đặng",
+     "gender": "f",
+     "death": "16/3",
+     "grave": "An Trường"
+    }
+   ]
+  },
+  {
+   "id": "p059",
+   "name": "Tăng Nguyên Kiết",
+   "gender": "m",
+   "note": "Bản gốc có ghi chú bút chì cạnh ô này (khó đọc, có thể là tên vợ và ngày giỗ 1/2)",
+   "parent": "p058",
+   "order": 1
+  },
+  {
+   "id": "p060",
+   "name": "Tăng Văn Canh",
+   "gender": "m",
+   "parent": "p059",
+   "order": 1
+  },
+  {
+   "id": "p061",
+   "name": "Tăng Văn Nhì",
+   "gender": "m",
+   "parent": "p059",
+   "order": 2
+  },
+  {
+   "id": "p062",
+   "name": "Tăng Văn Hoán",
+   "gender": "m",
+   "parent": "p059",
+   "order": 3
+  },
+  {
+   "id": "p063",
+   "name": "Tăng Văn Thiệt",
+   "gender": "m",
+   "parent": "p062",
+   "order": 1
+  },
+  {
+   "id": "p064",
+   "name": "Tăng Văn Huỳnh",
+   "gender": "m",
+   "parent": "p062",
+   "order": 2,
+   "uncertain": [
+    "name"
+   ],
+   "note": "Bản gốc in \"HUYNH\" không dấu"
+  },
+  {
+   "id": "p065",
+   "name": "Tăng Văn Lý",
+   "gender": "m",
+   "parent": "p062",
+   "order": 3
+  },
+  {
+   "id": "p066",
+   "name": "Tăng Văn Ngũ",
+   "gender": "m",
+   "parent": "p062",
+   "order": 4
+  },
+  {
+   "id": "p067",
+   "name": "Tăng Văn Ngôn",
+   "gender": "m",
+   "parent": "p059",
+   "order": 4
+  },
+  {
+   "id": "p068",
+   "name": "Tăng Văn Diệu",
+   "gender": "m",
+   "parent": "p067",
+   "order": 1
+  },
+  {
+   "id": "p069",
+   "name": "Tăng Văn Hương",
+   "gender": "m",
+   "parent": "p068"
+  },
+  {
+   "id": "p070",
+   "name": "Tăng Văn Thêm",
+   "gender": "m",
+   "parent": "p067",
+   "order": 2
+  },
+  {
+   "id": "p071",
+   "name": "Tăng Trinh",
+   "gender": "m",
+   "death": "9/11",
+   "grave": "An Trường",
+   "parent": "p058",
+   "order": 2,
+   "spouses": [
+    {
+     "name": "Nguyễn Thị Ý",
+     "gender": "f",
+     "death": "26/11"
+    },
+    {
+     "name": "Nguyễn Thị Thọ",
+     "gender": "f",
+     "death": "10/1"
+    }
+   ]
+  },
+  {
+   "id": "p072",
+   "name": "Tăng Thị Trâm",
+   "gender": "f",
+   "parent": "p071",
+   "mother": 1
+  },
+  {
+   "id": "p073",
+   "name": "Tăng Văn Sung",
+   "gender": "m",
+   "parent": "p072",
+   "order": 1
+  },
+  {
+   "id": "p074",
+   "name": "Tăng Văn Đạm",
+   "gender": "m",
+   "parent": "p072",
+   "order": 2
+  },
+  {
+   "id": "p075",
+   "name": "Tăng Văn Toán",
+   "gender": "m",
+   "parent": "p072",
+   "order": 3
+  },
+  {
+   "id": "p076",
+   "name": "Tăng Văn Khâm",
+   "gender": "m",
+   "parent": "p072",
+   "order": 4
+  },
+  {
+   "id": "p077",
+   "name": "Tăng Văn Tự",
+   "gender": "m",
+   "death": "21/3",
+   "parent": "p071",
+   "order": 1,
+   "mother": 2
+  },
+  {
+   "id": "p078",
+   "name": "Tăng Thị Ân",
+   "gender": "f",
+   "death": "14/2",
+   "parent": "p071",
+   "order": 2,
+   "mother": 2
+  },
+  {
+   "id": "p079",
+   "name": "Tăng Thị Tình",
+   "gender": "f",
+   "parent": "p071",
+   "order": 3,
+   "mother": 2
+  },
+  {
+   "id": "p080",
+   "name": "Tăng Thị Hảo",
+   "gender": "f",
+   "parent": "p071",
+   "order": 4,
+   "mother": 2
+  },
+  {
+   "id": "p081",
+   "name": "Tăng Thị Nhơn",
+   "gender": "f",
+   "death": "10/6",
+   "parent": "p071",
+   "order": 5,
+   "mother": 2
+  },
+  {
+   "id": "p082",
+   "name": "Tăng Văn Chất",
+   "gender": "m",
+   "death": "5/6",
+   "parent": "p071",
+   "order": 6,
+   "mother": 2
+  },
+  {
+   "id": "p083",
+   "name": "Tăng Thị Chỉ",
+   "gender": "f",
+   "death": "4/9",
+   "parent": "p071",
+   "order": 7,
+   "mother": 2
+  },
+  {
+   "id": "p084",
+   "name": "Tăng Tường",
+   "gender": "m",
+   "death": "10/1",
+   "grave": "An Trường (mộ ông và 3 bà nội)",
+   "parent": "p071",
+   "order": 8,
+   "mother": 2,
+   "spouses": [
+    {
+     "name": "Nguyễn Thị Nhạn",
+     "gender": "f",
+     "death": "15/9"
+    },
+    {
+     "name": "Nguyễn Thị Nhỏ",
+     "gender": "f",
+     "death": "26/3"
+    },
+    {
+     "name": "Nguyễn Thị Thân",
+     "gender": "f",
+     "death": "20/11"
+    }
+   ]
+  },
+  {
+   "id": "p085",
+   "name": "Tăng Văn Giác",
+   "gender": "m",
+   "parent": "p084",
+   "order": 2,
+   "mother": 1
+  },
+  {
+   "id": "p086",
+   "name": "Tăng Thị Phú",
+   "gender": "f",
+   "death": "10/8",
+   "mark": "c",
+   "parent": "p084",
+   "order": 3,
+   "mother": 1
+  },
+  {
+   "id": "p087",
+   "name": "Tăng Thị An",
+   "gender": "f",
+   "mark": "c",
+   "parent": "p084",
+   "order": 4,
+   "mother": 1
+  },
+  {
+   "id": "p088",
+   "name": "Võ Thị Lương",
+   "gender": "f",
+   "parent": "p087",
+   "order": 1
+  },
+  {
+   "id": "p089",
+   "name": "Võ Huấn",
+   "gender": "m",
+   "parent": "p087",
+   "order": 2
+  },
+  {
+   "id": "p090",
+   "name": "Tăng Thị Ninh",
+   "gender": "f",
+   "mark": "c",
+   "parent": "p084",
+   "order": 5,
+   "mother": 1
+  },
+  {
+   "id": "p091",
+   "name": "Tăng Thị Cảnh",
+   "gender": "f",
+   "parent": "p090"
+  },
+  {
+   "id": "p092",
+   "name": "Tăng Văn Nghi",
+   "gender": "m",
+   "mark": "c",
+   "parent": "p084",
+   "order": 6,
+   "mother": 3,
+   "spouses": [
+    {
+     "name": "Lê Thị Trí",
+     "gender": "f",
+     "mark": "c"
+    }
+   ]
+  },
+  {
+   "id": "p093",
+   "name": "Tăng Diễn",
+   "gender": "m",
+   "mark": "c",
+   "parent": "p092",
+   "order": 1
+  },
+  {
+   "id": "p094",
+   "name": "Tăng Ba",
+   "gender": "m",
+   "parent": "p092",
+   "order": 2
+  },
+  {
+   "id": "p095",
+   "name": "Tăng Thị Lệ",
+   "gender": "f",
+   "parent": "p092",
+   "order": 3
+  },
+  {
+   "id": "p096",
+   "name": "Tăng Thị Hàng",
+   "gender": "f",
+   "note": "Bản gốc để trống số thứ tự",
+   "mark": "c",
+   "parent": "p084",
+   "mother": 2
+  },
+  {
+   "id": "p097",
+   "name": "Tăng Thị Dưỡng",
+   "gender": "f",
+   "death": "5/7",
+   "mark": "c",
+   "parent": "p084",
+   "order": 7,
+   "mother": 2
+  },
+  {
+   "id": "p098",
+   "name": "Hồ Thị Tùng",
+   "gender": "f",
+   "parent": "p097"
+  },
+  {
+   "id": "p099",
+   "name": "Tăng Hồ",
+   "gender": "m",
+   "death": "9/12",
+   "note": "Hỏa táng, TP.HCM",
+   "uncertain": [
+    "note"
+   ],
+   "parent": "p084",
+   "order": 8,
+   "mother": 3,
+   "spouses": [
+    {
+     "name": "Trần Thị Chín",
+     "gender": "f",
+     "mark": "c"
+    }
+   ]
+  },
+  {
+   "id": "p100",
+   "name": "Tăng Văn Tòa",
+   "gender": "m",
+   "mark": "c",
+   "parent": "p099",
+   "order": 1
+  },
+  {
+   "id": "p101",
+   "name": "Tăng Thị Lầu",
+   "gender": "f",
+   "mark": "c",
+   "parent": "p099",
+   "order": 2
+  },
+  {
+   "id": "p102",
+   "name": "Tăng Thị Bạch Mai",
+   "gender": "f",
+   "parent": "p099",
+   "order": 3
+  },
+  {
+   "id": "p103",
+   "name": "Tăng Cửu",
+   "gender": "m",
+   "death": "20/7",
+   "parent": "p084",
+   "order": 9,
+   "mother": 2,
+   "spouses": [
+    {
+     "name": "Trần Thị Cho",
+     "gender": "f",
+     "death": "4/11"
+    }
+   ]
+  },
+  {
+   "id": "p104",
+   "name": "Tăng Anh",
+   "gender": "m",
+   "death": "11/7",
+   "grave": "An Trường",
+   "parent": "p103",
+   "order": 1,
+   "spouses": [
+    {
+     "name": "Nguyễn Thị Thanh",
+     "gender": "f"
+    }
+   ]
+  },
+  {
+   "id": "p105",
+   "name": "Tăng Thị Yến Nga",
+   "gender": "f",
+   "parent": "p104",
+   "order": 1,
+   "spouses": [
+    {
+     "name": "Võ Duy Minh",
+     "gender": "m"
+    }
+   ]
+  },
+  {
+   "id": "p106",
+   "name": "Tăng Quốc Bảo",
+   "gender": "m",
+   "parent": "p104",
+   "order": 2,
+   "spouses": [
+    {
+     "name": "Lê Thị Hồng Ngọc",
+     "gender": "f"
+    }
+   ]
+  },
+  {
+   "id": "p107",
+   "name": "Tăng Công Hiệp",
+   "gender": "u",
+   "parent": "p106",
+   "order": 1
+  },
+  {
+   "id": "p108",
+   "name": "Tăng Thị Thủy Trang",
+   "gender": "u",
+   "parent": "p106",
+   "order": 2
+  },
+  {
+   "id": "p109",
+   "name": "Tăng Công Chính",
+   "gender": "u",
+   "parent": "p106",
+   "order": 3
+  },
+  {
+   "id": "p110",
+   "name": "Tăng Công Hoàng",
+   "gender": "u",
+   "parent": "p106",
+   "order": 4
+  },
+  {
+   "id": "p111",
+   "name": "Tăng Quốc Cường",
+   "gender": "m",
+   "parent": "p104",
+   "order": 3,
+   "spouses": [
+    {
+     "name": "Nguyễn Thị Thúy Diễm",
+     "gender": "f"
+    }
+   ]
+  },
+  {
+   "id": "p112",
+   "name": "Tăng Thủy My",
+   "gender": "u",
+   "parent": "p111"
+  },
+  {
+   "id": "p113",
+   "name": "Tăng Thị Hoa",
+   "gender": "f",
+   "parent": "p103",
+   "order": 2,
+   "spouses": [
+    {
+     "name": "Nguyễn Phú",
+     "gender": "m",
+     "grave": "Kỳ Lam, Điện Bàn"
+    }
+   ]
+  },
+  {
+   "id": "p114",
+   "name": "Tăng Thị Kim Quyên",
+   "gender": "f",
+   "parent": "p103",
+   "order": 3,
+   "spouses": [
+    {
+     "name": "Lê Trình",
+     "gender": "m"
+    }
+   ]
+  },
+  {
+   "id": "p115",
+   "name": "Tăng Văn Năm",
+   "gender": "m",
+   "mark": "c",
+   "parent": "p103",
+   "order": 4
+  },
+  {
+   "id": "p116",
+   "name": "Tăng Quảng",
+   "gender": "m",
+   "parent": "p103",
+   "order": 5,
+   "spouses": [
+    {
+     "name": "Phan Thị Phương Dung",
+     "gender": "f"
+    }
+   ]
+  },
+  {
+   "id": "p117",
+   "name": "Tăng Quốc Phong",
+   "gender": "m",
+   "parent": "p116",
+   "order": 1,
+   "spouses": [
+    {
+     "name": "Phan Thị Đỗ Quyên",
+     "gender": "f"
+    }
+   ]
+  },
+  {
+   "id": "p118",
+   "name": "Tăng Khánh Vy",
+   "gender": "u",
+   "parent": "p117"
+  },
+  {
+   "id": "p119",
+   "name": "Tăng Quốc Nam",
+   "gender": "u",
+   "parent": "p116",
+   "order": 2
+  },
+  {
+   "id": "p120",
+   "name": "Tăng Văn Vô Danh",
+   "gender": "u",
+   "parent": "p119"
+  },
+  {
+   "id": "p121",
+   "name": "Tăng Quốc Đính",
+   "gender": "u",
+   "parent": "p116",
+   "order": 3
+  },
+  {
+   "id": "p122",
+   "name": "Tăng Bảo Trâm",
+   "gender": "u",
+   "note": "Bản gốc ghi \"Cô\"",
+   "parent": "p116",
+   "order": 4
+  },
+  {
+   "id": "p123",
+   "name": "Tăng Văn Vô Danh",
+   "gender": "u",
+   "parent": "p116",
+   "order": 5
+  },
+  {
+   "id": "p124",
+   "name": "Tăng Thị Vô Danh",
+   "gender": "u",
+   "parent": "p116",
+   "order": 6
+  },
+  {
+   "id": "p125",
+   "name": "Tăng Văn Bảy",
+   "gender": "m",
+   "mark": "c",
+   "parent": "p103",
+   "order": 6
+  },
+  {
+   "id": "p126",
+   "name": "Tăng Minh Nhựt",
+   "gender": "m",
+   "parent": "p103",
+   "order": 7,
+   "spouses": [
+    {
+     "name": "Châu Thị Hường",
+     "gender": "f"
+    }
+   ]
+  },
+  {
+   "id": "p127",
+   "name": "Tăng Châu Quỳnh Như",
+   "gender": "u",
+   "parent": "p126",
+   "order": 1
+  },
+  {
+   "id": "p128",
+   "name": "Tăng Châu Minh Phương",
+   "gender": "u",
+   "parent": "p126",
+   "order": 2
+  },
+  {
+   "id": "p129",
+   "name": "Tăng Quốc Việt",
+   "gender": "u",
+   "parent": "p126",
+   "order": 3
+  },
+  {
+   "id": "p130",
+   "name": "Tăng Quốc Minh",
+   "gender": "u",
+   "parent": "p126",
+   "order": 4
+  },
+  {
+   "id": "p131",
+   "name": "Tăng Đậu",
+   "gender": "m",
+   "mark": "c",
+   "parent": "p084",
+   "order": 10,
+   "mother": 3
+  },
+  {
+   "id": "p132",
+   "name": "Tăng Thị Mộng",
+   "gender": "f",
+   "note": "Bản gốc có ghi bút chì \"(5/7)\"",
+   "parent": "p084",
+   "order": 11,
+   "mother": 2
+  },
+  {
+   "id": "p133",
+   "name": "Tăng Hiệt",
+   "gender": "m",
+   "death": "6/11",
+   "grave": "An Trường",
+   "parent": "p084",
+   "order": 12,
+   "mother": 3,
+   "spouses": [
+    {
+     "name": "Võ Thị Tín",
+     "gender": "f"
+    }
+   ]
+  },
+  {
+   "id": "p134",
+   "name": "Tăng Trữ",
+   "gender": "m",
+   "parent": "p133",
+   "order": 1,
+   "spouses": [
+    {
+     "name": "Ngô Thị Khuyên",
+     "gender": "f"
+    }
+   ]
+  },
+  {
+   "id": "p135",
+   "name": "Tăng Thanh Tùng",
+   "gender": "m",
+   "parent": "p134",
+   "order": 1,
+   "spouses": [
+    {
+     "name": "Từ Thị Hà",
+     "gender": "f"
+    }
+   ]
+  },
+  {
+   "id": "p136",
+   "name": "Tăng Bảo Long",
+   "gender": "u",
+   "note": "Bản gốc để trống số thứ tự",
+   "parent": "p135"
+  },
+  {
+   "id": "p137",
+   "name": "Tăng Bảo Khánh",
+   "gender": "u",
+   "parent": "p135",
+   "order": 2
+  },
+  {
+   "id": "p138",
+   "name": "Tăng Bảo Hòa",
+   "gender": "u",
+   "parent": "p135",
+   "order": 3
+  },
+  {
+   "id": "p139",
+   "name": "Tăng Thị Thu Thủy",
+   "gender": "u",
+   "parent": "p134",
+   "order": 2
+  },
+  {
+   "id": "p140",
+   "name": "Tăng Thị Thu Trâm",
+   "gender": "u",
+   "parent": "p134",
+   "order": 3
+  },
+  {
+   "id": "p141",
+   "name": "Tăng Trung Thành",
+   "gender": "u",
+   "parent": "p134",
+   "order": 4
+  },
+  {
+   "id": "p142",
+   "name": "Tăng Thị Hiền",
+   "gender": "u",
+   "mark": "c",
+   "parent": "p134",
+   "order": 5
+  },
+  {
+   "id": "p143",
+   "name": "Tăng Thị Cẩm Phú",
+   "gender": "u",
+   "parent": "p134",
+   "order": 6
+  },
+  {
+   "id": "p144",
+   "name": "Tăng Hoàng Quý",
+   "gender": "u",
+   "parent": "p134",
+   "order": 7
+  },
+  {
+   "id": "p145",
+   "name": "Tăng Vô Danh",
+   "gender": "u",
+   "parent": "p134",
+   "order": 8
+  },
+  {
+   "id": "p146",
+   "name": "Tăng Vô Danh",
+   "gender": "u",
+   "parent": "p134",
+   "order": 9
+  },
+  {
+   "id": "p147",
+   "name": "Tăng Thị Hường",
+   "gender": "f",
+   "parent": "p133",
+   "order": 2
+  },
+  {
+   "id": "p148",
+   "name": "Tăng Nhượng",
+   "gender": "m",
+   "mark": "c",
+   "parent": "p133",
+   "order": 3
+  },
+  {
+   "id": "p149",
+   "name": "Tăng Nhường",
+   "gender": "m",
+   "parent": "p133",
+   "order": 4,
+   "spouses": [
+    {
+     "name": "Nguyễn Thị Hồng Duyên",
+     "gender": "f"
+    }
+   ]
+  },
+  {
+   "id": "p150",
+   "name": "Tăng Bảo Phương",
+   "gender": "u",
+   "parent": "p149",
+   "order": 1
+  },
+  {
+   "id": "p151",
+   "name": "Tăng Vô Danh",
+   "gender": "u",
+   "parent": "p149",
+   "order": 2
+  },
+  {
+   "id": "p152",
+   "name": "Tăng Bảo Nga",
+   "gender": "u",
+   "parent": "p149",
+   "order": 3
+  },
+  {
+   "id": "p153",
+   "name": "Tăng Bảo Nguyên",
+   "gender": "u",
+   "parent": "p149",
+   "order": 4
+  },
+  {
+   "id": "p154",
+   "name": "Tăng Thị Hồng",
+   "gender": "f",
+   "parent": "p133",
+   "order": 5
+  },
+  {
+   "id": "p155",
+   "name": "Tăng Thị Tám",
+   "gender": "f",
+   "parent": "p133",
+   "order": 6
+  },
+  {
+   "id": "p156",
+   "name": "Tăng Định",
+   "gender": "m",
+   "parent": "p133",
+   "order": 7
+  },
+  {
+   "id": "p157",
+   "name": "Tăng Thị Bảo Linh",
+   "gender": "u",
+   "parent": "p156"
+  },
+  {
+   "id": "p158",
+   "name": "Tăng Thị Dân",
+   "gender": "f",
+   "parent": "p084",
+   "order": 13,
+   "mother": 2
+  },
+  {
+   "id": "p159",
+   "name": "Tăng Xuyến",
+   "gender": "m",
+   "parent": "p084",
+   "order": 14,
+   "mother": 2,
+   "spouses": [
+    {
+     "name": "Lưu Thị Tình",
+     "gender": "f",
+     "grave": "An Trường"
+    }
+   ]
+  },
+  {
+   "id": "p160",
+   "name": "Tăng Thị Ngọc",
+   "gender": "f",
+   "parent": "p159",
+   "order": 1
+  },
+  {
+   "id": "p161",
+   "name": "Tăng Long Diệp",
+   "gender": "m",
+   "parent": "p159",
+   "order": 2
+  },
+  {
+   "id": "p162",
+   "name": "Tăng Thị Gặp",
+   "gender": "f",
+   "parent": "p159",
+   "order": 3
+  },
+  {
+   "id": "p163",
+   "name": "Tăng Thị Lộc",
+   "gender": "f",
+   "parent": "p159",
+   "order": 4
+  },
+  {
+   "id": "p164",
+   "name": "Tăng Thị Nhung",
+   "gender": "f",
+   "parent": "p159",
+   "order": 5
+  },
+  {
+   "id": "p165",
+   "name": "Tăng Thị Tiên",
+   "gender": "f",
+   "parent": "p159",
+   "order": 6
+  },
+  {
+   "id": "p166",
+   "name": "Tăng Thị Tiến",
+   "gender": "f",
+   "parent": "p084",
+   "order": 15,
+   "mother": 2
+  },
+  {
+   "id": "p167",
+   "name": "Tăng Bàng",
+   "gender": "m",
+   "parent": "p084",
+   "order": 16,
+   "mother": 2,
+   "spouses": [
+    {
+     "name": "Hồ Thị Mao",
+     "gender": "f",
+     "death": "28/7",
+     "grave": "Gò Cà"
+    }
+   ]
+  },
+  {
+   "id": "p168",
+   "name": "Tăng Long Châu",
+   "gender": "m",
+   "parent": "p167",
+   "order": 1,
+   "spouses": [
+    {
+     "name": "Thái Thị Tuyết Nhung",
+     "gender": "f"
+    }
+   ]
+  },
+  {
+   "id": "p169",
+   "name": "Tăng Thái Kiều Nhi",
+   "gender": "u",
+   "parent": "p168",
+   "order": 1
+  },
+  {
+   "id": "p170",
+   "name": "Tăng Thị Long Hiệp",
+   "gender": "u",
+   "parent": "p168",
+   "order": 2
+  },
+  {
+   "id": "p171",
+   "name": "Tăng Long Lân",
+   "gender": "m",
+   "mark": "c",
+   "parent": "p167",
+   "order": 2
+  },
+  {
+   "id": "p172",
+   "name": "Tăng Long Vũ",
+   "gender": "u",
+   "parent": "p171"
+  },
+  {
+   "id": "p173",
+   "name": "Tăng Thị Long Vinh",
+   "gender": "f",
+   "parent": "p167",
+   "order": 3,
+   "spouses": [
+    {
+     "name": "Nguyễn Hữu Hòa",
+     "gender": "m",
+     "mark": "c"
+    }
+   ]
+  },
+  {
+   "id": "p174",
+   "name": "Tăng Long Phương",
+   "gender": "m",
+   "parent": "p167",
+   "order": 4
+  },
+  {
+   "id": "p175",
+   "name": "Tăng Long Hữu",
+   "gender": "u",
+   "parent": "p174"
+  },
+  {
+   "id": "p176",
+   "name": "Tăng Long Phước",
+   "gender": "m",
+   "parent": "p167",
+   "order": 5
+  },
+  {
+   "id": "p177",
+   "name": "Tăng Long Thanh",
+   "gender": "m",
+   "mark": "c",
+   "parent": "p167",
+   "order": 6
+  },
+  {
+   "id": "p178",
+   "name": "Tăng Thị Long Vân",
+   "gender": "f",
+   "parent": "p167",
+   "order": 7
+  },
+  {
+   "id": "p179",
+   "name": "Tăng Thị Tê",
+   "gender": "f",
+   "mark": "c",
+   "parent": "p084",
+   "order": 17,
+   "mother": 3
+  },
+  {
+   "id": "p180",
+   "name": "Tăng Văn Vô Danh",
+   "gender": "u",
+   "parent": "p084",
+   "order": 18,
+   "mother": 2
+  },
+  {
+   "id": "p181",
+   "name": "Tăng Văn Biếu",
+   "gender": "m",
+   "death": "30/8",
+   "parent": "p007",
+   "order": 4,
+   "phai": "IV",
+   "spouses": [
+    {
+     "name": "Trần Thị Tri",
+     "gender": "f",
+     "death": "23/9",
+     "grave": "Câu Nhí"
+    }
+   ]
+  },
+  {
+   "id": "p182",
+   "name": "Tăng Văn Xuân",
+   "gender": "m",
+   "parent": "p181",
+   "order": 1
+  },
+  {
+   "id": "p183",
+   "name": "Tăng Văn Chén",
+   "gender": "m",
+   "parent": "p181",
+   "order": 2
+  },
+  {
+   "id": "p184",
+   "name": "Tăng Thị Nhạn",
+   "gender": "f",
+   "death": "16/5",
+   "grave": "Trà Kiệu",
+   "parent": "p007",
+   "order": 5
+  },
+  {
+   "id": "p185",
+   "name": "Tăng Thị Nhỏ",
+   "gender": "f",
+   "death": "12/2",
+   "grave": "Trà Kiệu",
+   "parent": "p007",
+   "order": 6
+  },
+  {
+   "id": "p186",
+   "name": "Tăng Thị Â",
+   "gender": "f",
+   "death": "5/4",
+   "grave": "Lang Châu",
+   "parent": "p007",
+   "order": 7
+  },
+  {
+   "id": "p187",
+   "name": "Tăng Thị Á",
+   "gender": "f",
+   "death": "9/5",
+   "grave": "Trà Kiệu",
+   "parent": "p007",
+   "order": 8
+  },
+  {
+   "id": "p188",
+   "name": "Tăng Thị Lỳ",
+   "gender": "f",
+   "death": "1/7",
+   "grave": "Trà Kiệu",
+   "parent": "p007",
+   "order": 9
+  },
+  {
+   "id": "p189",
+   "name": "Tăng Thị Chói",
+   "gender": "f",
+   "death": "15/10",
+   "grave": "Trà Kiệu",
+   "parent": "p007",
+   "order": 10
+  },
+  {
+   "id": "p190",
+   "name": "Tăng Thị Choi",
+   "gender": "f",
+   "death": "21/6",
+   "grave": "Trà Kiệu",
+   "parent": "p007",
+   "order": 11
+  },
+  {
+   "id": "p191",
+   "name": "Tăng Thị Chớt",
+   "gender": "f",
+   "grave": "Trà Kiệu",
+   "parent": "p007",
+   "order": 12
+  },
+  {
+   "id": "p192",
+   "name": "Tăng Văn Vọng",
+   "gender": "m",
+   "death": "9/2",
+   "grave": "Trà Kiệu",
+   "parent": "p006",
+   "order": 2,
+   "spouses": [
+    {
+     "name": "Huỳnh Thị Đá",
+     "gender": "f",
+     "death": "2/11",
+     "grave": "Trà Kiệu"
+    }
+   ]
+  },
+  {
+   "id": "p193",
+   "name": "Tăng Văn Đàng",
+   "gender": "m",
+   "parent": "p006",
+   "order": 3
+  },
+  {
+   "id": "p194",
+   "name": "Tăng Văn Tống",
+   "gender": "m",
+   "grave": "Mậu Hòa",
+   "parent": "p006",
+   "order": 4
+  },
+  {
+   "id": "p195",
+   "name": "Tăng Văn Biện",
+   "gender": "m",
+   "grave": "Mậu Hòa",
+   "parent": "p006",
+   "order": 5
+  },
+  {
+   "id": "p196",
+   "name": "Tăng Vô Danh",
+   "gender": "m",
+   "grave": "An Trường",
+   "parent": "p006",
+   "order": 6
+  },
+  {
+   "id": "p197",
+   "name": "Tăng Thị Lì",
+   "gender": "f",
+   "grave": "Phú Thuận",
+   "parent": "p006",
+   "order": 7
+  },
+  {
+   "id": "p198",
+   "name": "Tăng Thị Lọc",
+   "gender": "f",
+   "grave": "Diêm Sơn",
+   "parent": "p006",
+   "order": 8
+  },
+  {
+   "id": "p199",
+   "name": "Tăng Thị Quãng",
+   "gender": "f",
+   "death": "30/11",
+   "parent": "p006",
+   "order": 9
+  },
+  {
+   "id": "p200",
+   "name": "Tăng Thị Đào",
+   "gender": "f",
+   "death": "7/4",
+   "grave": "Thạch Bộ, Quảng Huế",
+   "parent": "p006",
+   "order": 10
+  },
+  {
+   "id": "p201",
+   "name": "Tăng Văn Định",
+   "gender": "m",
+   "parent": "p005",
+   "order": 2
+  },
+  {
+   "id": "p202",
+   "name": "Tăng Văn Gấm",
+   "gender": "m",
+   "grave": "Thọ Sơn, Duy Xuyên",
+   "parent": "p002",
+   "order": 4
+  },
+  {
+   "id": "p203",
+   "name": "Tăng Nhã Kỳ",
+   "gender": "f",
+   "parent": "p130",
+   "order": 1
+  },
+  {
+   "id": "p204",
+   "name": "Tăng Quốc Khánh",
+   "gender": "m",
+   "parent": "p130",
+   "order": 2
+  },
+  {
+   "id": "p205",
+   "name": "Tăng Quốc Đạt",
+   "gender": "m",
+   "parent": "p129",
+   "order": 1
+  },
+  {
+   "id": "p206",
+   "name": "Tăng Quốc Huy",
+   "gender": "m",
+   "parent": "p129",
+   "order": 2
+  }
+ ]
+}
