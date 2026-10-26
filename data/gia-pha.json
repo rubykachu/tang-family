@@ -52,12 +52,9 @@
   },
   {
    "id": "p003",
-   "name": "Tăng Thị Dụng",
+   "name": "Tăng Thị Dựng",
    "gender": "f",
    "grave": "Khe Đá Mài, Quảng Nam",
-   "uncertain": [
-    "grave"
-   ],
    "parent": "p002",
    "order": 1
   },
@@ -74,9 +71,6 @@
    "name": "Tăng Văn Đao",
    "gender": "m",
    "grave": "Phú Thuận, Giồng",
-   "uncertain": [
-    "grave"
-   ],
    "parent": "p002",
    "order": 3
   },
@@ -86,9 +80,6 @@
    "gender": "m",
    "death": "12/8",
    "grave": "Câu Nhí, thôn Hạnh Ba",
-   "uncertain": [
-    "grave"
-   ],
    "parent": "p005",
    "order": 1,
    "spouses": [
@@ -96,10 +87,7 @@
      "name": "Nguyễn Thị Phan",
      "gender": "f",
      "death": "18/9",
-     "grave": "Câu Nhí, thôn Hạnh Ba",
-     "uncertain": [
-      "grave"
-     ]
+     "grave": "Câu Nhí, thôn Hạnh Ba"
     }
    ]
   },
@@ -143,9 +131,6 @@
    "name": "Tăng Văn Dụng",
    "gender": "m",
    "death": "20/10",
-   "uncertain": [
-    "death"
-   ],
    "parent": "p008",
    "spouses": [
     {
@@ -301,11 +286,7 @@
    "id": "p031",
    "name": "Tăng Văn Thế",
    "gender": "m",
-   "parent": "p030",
-   "uncertain": [
-    "name"
-   ],
-   "note": "Dấu trên chữ \"Thế\" trong bản gốc bị mờ (có thể là Thể/Thê)"
+   "parent": "p030"
   },
   {
    "id": "p032",
@@ -506,9 +487,20 @@
    "id": "p059",
    "name": "Tăng Nguyên Kiết",
    "gender": "m",
-   "note": "Bản gốc có ghi chú bút chì cạnh ô này (khó đọc, có thể là tên vợ và ngày giỗ 1/2)",
+   "note": "Bút chì bên trái ô ghi \"(5/5)\" kèm chữ không đọc được",
    "parent": "p058",
-   "order": 1
+   "order": 1,
+   "spouses": [
+    {
+     "name": "Nguyễn Thị Ế",
+     "gender": "f",
+     "death": "1/2",
+     "note": "Đọc từ ghi chú bút chì \"Ng thị Ế (Tư)\" trong bản gốc",
+     "uncertain": [
+      "name"
+     ]
+    }
+   ]
   },
   {
    "id": "p060",
@@ -540,14 +532,10 @@
   },
   {
    "id": "p064",
-   "name": "Tăng Văn Huỳnh",
+   "name": "Tăng Văn Huynh",
    "gender": "m",
    "parent": "p062",
-   "order": 2,
-   "uncertain": [
-    "name"
-   ],
-   "note": "Bản gốc in \"HUYNH\" không dấu"
+   "order": 2
   },
   {
    "id": "p065",
@@ -859,9 +847,6 @@
    "gender": "m",
    "death": "9/12",
    "note": "Hỏa táng, TP.HCM",
-   "uncertain": [
-    "note"
-   ],
    "parent": "p084",
    "order": 8,
    "mother": 3,
@@ -956,7 +941,7 @@
   {
    "id": "p107",
    "name": "Tăng Công Hiệp",
-   "gender": "u",
+   "gender": "m",
    "parent": "p106",
    "order": 1
   },
@@ -970,14 +955,14 @@
   {
    "id": "p109",
    "name": "Tăng Công Chính",
-   "gender": "u",
+   "gender": "m",
    "parent": "p106",
    "order": 3
   },
   {
    "id": "p110",
    "name": "Tăng Công Hoàng",
-   "gender": "u",
+   "gender": "m",
    "parent": "p106",
    "order": 4
   },
@@ -997,7 +982,7 @@
   {
    "id": "p112",
    "name": "Tăng Thủy My",
-   "gender": "u",
+   "gender": "f",
    "parent": "p111"
   },
   {
@@ -1066,7 +1051,7 @@
   {
    "id": "p118",
    "name": "Tăng Khánh Vy",
-   "gender": "u",
+   "gender": "f",
    "parent": "p117"
   },
   {
@@ -1197,10 +1182,14 @@
    "id": "p132",
    "name": "Tăng Thị Mộng",
    "gender": "f",
-   "note": "Bản gốc có ghi bút chì \"(5/7)\"",
+   "note": "Ngày giỗ đọc từ ghi chú bút chì \"(5/7)\" trong bản gốc",
    "parent": "p084",
    "order": 11,
-   "mother": 2
+   "mother": 2,
+   "death": "5/7",
+   "uncertain": [
+    "death"
+   ]
   },
   {
    "id": "p133",
@@ -1247,14 +1236,14 @@
   {
    "id": "p136",
    "name": "Tăng Bảo Long",
-   "gender": "u",
+   "gender": "m",
    "note": "Bản gốc để trống số thứ tự",
    "parent": "p135"
   },
   {
    "id": "p137",
    "name": "Tăng Bảo Khánh",
-   "gender": "u",
+   "gender": "m",
    "parent": "p135",
    "order": 2
   },
@@ -1282,7 +1271,7 @@
   {
    "id": "p141",
    "name": "Tăng Trung Thành",
-   "gender": "u",
+   "gender": "m",
    "parent": "p134",
    "order": 4
   },
@@ -1353,7 +1342,7 @@
   {
    "id": "p150",
    "name": "Tăng Bảo Phương",
-   "gender": "u",
+   "gender": "f",
    "parent": "p149",
    "order": 1
   },
@@ -1367,7 +1356,7 @@
   {
    "id": "p152",
    "name": "Tăng Bảo Nga",
-   "gender": "u",
+   "gender": "f",
    "parent": "p149",
    "order": 3
   },
@@ -1510,7 +1499,7 @@
   {
    "id": "p169",
    "name": "Tăng Thái Kiều Nhi",
-   "gender": "u",
+   "gender": "f",
    "parent": "p168",
    "order": 1
   },
@@ -1532,7 +1521,7 @@
   {
    "id": "p172",
    "name": "Tăng Long Vũ",
-   "gender": "u",
+   "gender": "m",
    "parent": "p171"
   },
   {
@@ -1559,7 +1548,7 @@
   {
    "id": "p175",
    "name": "Tăng Long Hữu",
-   "gender": "u",
+   "gender": "m",
    "parent": "p174"
   },
   {

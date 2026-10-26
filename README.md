@@ -47,26 +47,19 @@ Những điều nên biết:
 
 ## Những chỗ cần người lớn trong họ xác nhận
 
-Bản scan có vài chỗ mờ hoặc có ghi chú bút chì. Ứng dụng đánh dấu những người này bằng cảnh báo vàng trong ô thông tin.
-Ảnh cắt từ bản gốc nằm trong `docs/doi-chieu/`:
+Bản scan đã được người trong họ soát lại (10/2026). Còn 2 chỗ đọc từ ghi chú bút chì, chưa chắc chắn; ứng dụng đánh
+dấu bằng cảnh báo vàng trong ô thông tin. Ảnh cắt từ bản gốc nằm trong `docs/doi-chieu/`:
 
 | Ảnh | Nội dung cần xác nhận | Đang ghi |
 |---|---|---|
-| `01-mo-ba-tang-thi-dung.png` | Nơi an táng của Bà Tăng Thị Dụng (đời 3) | Khe Đá Mài, Quảng Nam |
-| `02-mo-ong-tang-van-dao.png` | Nơi an táng của Ông Tăng Văn Đao (đời 3) | Phú Thuận, Giồng |
-| `03-mo-ong-quy-ba-phan.png` | Nơi an táng của Ông Tăng Văn Quý và Bà Nguyễn Thị Phan (đời 4) | Câu Nhí, thôn Hạnh Ba |
-| `04-ngay-gio-ong-tang-van-dung.png` | Ngày giỗ Ông Tăng Văn Dụng (đời 7): 20/10 hay 28/10 | 20/10 |
-| `05-ghi-chu-but-chi-canh-ong-kiet.png` | Hai dòng bút chì cạnh Ông Tăng Nguyên Kiết (có thể là tên vợ và ngày giỗ 1/2, 5/5) | chưa đưa vào dữ liệu |
-| `06-so-thu-tu-con-ong-tang-tuong.png` | Các con Ông Tăng Tường đánh số từ ② (không có ①); Bà Tăng Thị Hàng không có số | giữ đúng như bản gốc |
-| `07-ghi-chu-ong-tang-ho.png` | Ghi chú cạnh Ông Tăng Hồ | Hỏa táng, TP.HCM |
-| `08-but-chi-canh-ong-dau-ba-mong.png` | Bút chì "(5/7)" cạnh Bà Tăng Thị Mộng và chữ dưới ô Ông Tăng Đậu | chỉ ghi chú |
-| `09-ten-ong-tang-van-huynh.png` | Tên con thứ 2 của Ông Tăng Văn Hoán: bản gốc in "HUYNH" không dấu | Huỳnh |
-| `10-ten-ong-tang-van-the.png` | Tên con của Ông Tăng Văn Mỹ (đời 10): dấu bị mờ — Thế, Thể hay Thê | Thế |
+| `01-but-chi-vo-ong-tang-nguyen-kiet.png` | Vợ Ông Tăng Nguyên Kiết (đời 7), bút chì "Ng thị Ế (Tư)", giỗ "(1/2)"; bên trái ô còn bút chì "(5/5)" chưa đọc được | Bà Nguyễn Thị Ế, giỗ 1/2 |
+| `02-but-chi-ngay-gio-ba-tang-thi-mong.png` | Ngày giỗ Bà Tăng Thị Mộng (đời 9), bút chì "(5/7)" | 5/7 |
 
-Ngoài ra:
-- Ký hiệu **(c)** trong bản gốc chưa có lời giải thích nên được chép nguyên văn.
-- Đời 11–12 có nhiều tên không ghi "Ô." hay "B." nên đang để biểu tượng xám "Chưa ghi rõ". Sửa danh xưng trong
-  chế độ chỉnh sửa là biểu tượng tự đổi.
+Giữ nguyên theo bản gốc vì chưa ai biết rõ:
+- Ký hiệu **(c)** (20 chỗ) chưa có lời giải thích nên được chép nguyên văn.
+- Các con Ông Tăng Tường đánh số từ ②; Bà Tăng Thị Hàng và bé Tăng Bảo Long không có số thứ tự.
+- 9 người chưa rõ ông hay bà (biểu tượng xám): Tăng Bảo Hòa, Tăng Bảo Nguyên, Tăng Hoàng Quý, 3 người Tăng Văn Vô Danh,
+  3 người Tăng Vô Danh. Ông/bà của đời 11–12 được đoán theo tên, sửa trong chế độ chỉnh sửa nếu sai.
 
 ---
 
